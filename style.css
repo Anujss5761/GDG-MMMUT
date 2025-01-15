@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}   
+
+.imerse-hero-section{
+    max-width: 1170px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/hero-bg.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}   
+
+.header{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}   
+
+h1{
+    /* border: 2px solid black; */
+    font-size: 9.5rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    background-color: black;
+    border-radius: 7px;
+}
+
+/* About Section */
+
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.p1,.p2,.p3{
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 2px;
+    /* border: 2px solid black; */
+    padding-top: 0;
+    height: auto;
+}
+
+
+/* Bar */
+
+.immerse-features-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.feature{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    /* border-radius: 10px; */
+    /* background-color: white; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    transition: all 0.3s ease;
+}
+
+.counts{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.counts-text{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Videos */
+
+
+.immerse-videos-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    /* border: 2px solid black; */
+}
+
+.video-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    /* margin-top: 50px; */
+    width: 100%;
+}
+
+.video{
+    width: 88vw;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+
+
+/* Speaker */
+
+.immerse-speakers-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.speakers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.speaker-1,.speaker-2,.speaker-3{
+    width: 300px;
+    height: 440px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.speaker-1{
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.speaker-2{
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.speaker-3{
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.speaker-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.speaker-btn{
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* Events */
+
+.immerse-events-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    /* border: 2px solid black; */
+}
+
+.event-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}       
+
+.events{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}   
+
+.event{
+    width: 88vw;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.event-title-s{
+    display: flex;
+    justify-content: column;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event-text-s{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin: 12px 10px 12px 0;
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+
+.event-text-s-s{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px 10px 12px 0;
+    padding-top: 20px;
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+.event-text-t{
+    font-size: 1.6rem;
+}
+
+.event-text-ev{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.event-text-text{
+    font-size: 1.6rem;
+}
+
+.event-box{
+    width: 35px;
+    height: 18px;
+    /* border: 2px solid black; */
+    background-color: cadetblue;
+    border-radius: 9px;
+    margin-right: 8px;
+}
+
+
+/* Extra Text */
+
+.immerse-extra-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    /* border: 2px solid black; */
+}
+
+.extra-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extra-text{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Team Members */
+
+.immerse-team-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    /* border: 2px solid black; */
+}
+
+.team-title{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    width: 88vw;
+    /* border: 2px solid black; */
+}
+
+.team-member{
+    width: 80%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.team-member-img{
+    width: 50%;
+    height: 200px;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.team-text{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+
+.team-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team-role{
+    font-size: 1.2rem;
+    /* font-weight: 700; */
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+/* Event H */
+
+.immerse-highlights-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    /* border: 2px solid black; */
+}
+
+.highlights{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 90vw;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+
+.highlight{
+    width: 99%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* background-color: white; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; */
+}
+
+.highlight-img-1{
+    width: 96%;
+    height: 80%;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.highlight-img-2{
+    width: 96%;
+    height: 68%;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.highlight-img-3{
+    width: 96%;
+    height: 68%;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.highlight-img-4{
+    width: 96%;
+    height: 90%;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.highlight-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+/* Sponsor Section */
+
+.immerse-sponser-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    /* padding: 100px 0; */
+    /* border: 2px solid black; */
+}
+
+.sponsers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 88vw;
+    /* border: 2px solid black; */
+}
+
+.sponser{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+
+.sponser-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.bgsu.edu/content/dam/BGSU/news/2023/05/Tedx23-122.jpg/_jcr_content/renditions/kraken-medium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+
+.immerse-footer-section{
+    width: 98%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 0;
+    /* border: 2px solid black; */
+    margin: 0 10px 0 10px;
+    border-radius: 30px 30px 0 0;
+    background-color: black;
+}
+
+.footer-1-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 80vw;
+    height: 500px;
+    /* border: 2px solid black; */
+}   
+
+.footer-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 80vw;
+    height: 500px;
+    /* border: 2px solid black; */
+}   
+
+.footer-text-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 25vw;
+    height: 300px;
+    /* border: 2px solid black; */
+}
+
+
+
+.footer-text-2{
+    /* margin-top: 10px; */
+    width: 20vw;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 80vw;
+    height: 200px;
+    border: 2px solid black;
+}   
+
+
+.footer-last-text{
+    font-size: 9rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+.footer-text-21{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
